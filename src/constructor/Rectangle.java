@@ -1,0 +1,34 @@
+package constructor;
+
+public class Rectangle { // 사각형 클래스
+	
+	int width; // 사각형 가로길이
+	int height; // 사각형 세로길이
+	
+//	public Rectangle() { // 기본 생성자(생략 가능) - 반환타입이 아예 없고, 이름이 해당 클래스의 이름으로 고정
+//		
+//	}
+//						// 매개 변수 - parameter
+//	public Rectangle(int width, int height) {
+//		this.width = width;
+//		this.height = height;
+//	}
+	
+	public Rectangle() {
+		
+	}
+	
+	
+	
+	public Rectangle(int width, int height) { // source => Generate constractor
+	this.width = width;
+	this.height = height;
+}
+
+
+
+	public int rectArea() { // 사각형 면적 반환 메소드
+		return width * height;
+	}
+
+}
