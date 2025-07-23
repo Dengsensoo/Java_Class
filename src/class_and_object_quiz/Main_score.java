@@ -4,6 +4,8 @@ public class Main_score {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Product 클래스 호출
+		
 		
 		Score subject = new Score();
 		subject.kor = 90;

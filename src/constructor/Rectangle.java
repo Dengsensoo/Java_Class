@@ -18,14 +18,10 @@ public class Rectangle { // 사각형 클래스
 		
 	}
 	
-	
-	
 	public Rectangle(int width, int height) { // source => Generate constractor
 	this.width = width;
 	this.height = height;
 }
-
-
 
 	public int rectArea() { // 사각형 면적 반환 메소드
 		return width * height;
