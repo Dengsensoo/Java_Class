@@ -24,4 +24,16 @@ public class Car {
 		engine.printEngine();
 	}
 	
+	public Engine outputEngine() {
+		engine.type = "디젤";
+		engine.displacement = 2;
+		return engine;
+	}
+	
+	public String[] outputCars() { // 해당 메소드를 만들어준 타입은 String[]
+		String[] cars = {"소나타", "아반떼", "K5"};
+		
+		return cars; // 배열
+	}
+	
 }

@@ -26,6 +26,22 @@ public class Main_calculator {
 		cal1.total2(10, 20, 30);
 		System.out.println();
 		
+		System.out.println("==================================================");
+		
+		// 생성자 오버로딩
+		Rectangle rec1 = new Rectangle(20, 10, "blue");
+		Rectangle rec2 = new Rectangle(100, 200);
+		Rectangle rec3 = new Rectangle();
+		
+		// 메소드 오버로딩
+		int area1 = rec1.rectArea();
+		int area2 = rec1.rectArea(200);
+		int area3 = rec1.rectArea(30, 40);
+		
+		System.out.println(area1); // 200
+		System.out.println(area2); // 2000
+		System.out.println(area3); // 1200
+		
 	}
 
 }
